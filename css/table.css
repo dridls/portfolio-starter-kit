@@ -1,0 +1,43 @@
+.table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.table .table-head {
+
+    background-color: #55618B;
+    color: white;
+    font-weight: bold;
+    padding: 1px 0.5px;
+}
+
+.table .table-body {
+    background: rgb(107, 164, 172);
+    background: linear-gradient(90deg, rgba(107, 164, 172, 1) 0%, rgba(119, 128, 162, 1) 50%, rgba(124, 105, 155, 1) 100%);
+    color: white;
+    font-weight: lighter;
+}
+
+.table-body .link {
+    text-decoration: none;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+h2 {
+    text-align: center;
+}

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Jane Doe | My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,9 +10,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="icon" href="images/mp.png">
+
+    <link rel="stylesheet" href="css/table.css">
     <link rel="stylesheet" href="./css/form.css">
   </head>
   <body>
+
     <header>
         <div class="container">
             <div class="logo">
@@ -19,6 +23,7 @@
             </div>
             <nav>
                 <ul>
+
                     <li><a href="#" class="active">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
@@ -29,9 +34,41 @@
 
     <main id="main-content">
         <div class="container">
+            <h2>Projects, Customers and Years</h2>
+            <table class="table">
+                <thead class="table-head">
+                    <tr>
+                        <th class="sticky">Launch Day</th>
+                        <th class="sticky">Project</th>
+                        <th class="sticky">Link to Project</th>
+                    </tr>
+                </thead>
+                <tbody class="table-body">
+                    <tr>
+                        <td>January 2015</td>
+                        <td>Skolkovo Business District</td>
+                        <td><a class="link" href="#">Visit website</td>
+                    </tr>
+                    <tr>
+                        <td>March 2016</td>
+                        <td>The digital Van Gogh Museum</td>
+                        <td><a class="link" href="#">Visit website</td>
+                    </tr>
+                    <tr>
+                        <td>June 2019</td>
+                        <td>DivineComedy.Digital</td>
+                        <td><a class="link" href="#">Visit website</td>
+                    </tr>
+                    <tr>
+                        <td>February 2021</td>
+                        <td>Cowool. Cosy living and cosy working</td>
+                        <td><a class="link" href="#">Visit website</td>
+                    </tr>
+                </tbody>
 
-        <!-- TABLE -->
-            <section class="table">
+            </table>
+
+
 
 
             </section>
@@ -75,7 +112,7 @@
 
             </section>
 
-        <!-- CONTACT -->
+            <!-- CONTACT -->
 
             <section class="contact">
                     <form action="" class="formContainer">
@@ -374,7 +411,8 @@
 
     <footer>
 
-     </footer>
+    </footer>
 
-  </body>
+</body>
+
 </html>

@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body, input, textarea{
-    font-family: Montserrat, sans-serif;
+body, input, textarea {
+  font-family: Montserrat, sans-serif;
 }
+
 body {
   padding-top: 70px;
   color: #0c0c0d;
 }
-*,*:before,*:after{
+
+*, *:before, *:after {
   box-sizing: border-box;
 }
-.container{
+
+.container {
   max-width: 1000px;
   width: 94%;
   margin: 0 auto;
 }
-section{
+
+section {
   padding: 3em 0;
 }
 
@@ -23,6 +27,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 ul li {
   list-style: none;
 }
@@ -33,7 +38,8 @@ a {
   text-decoration: none;
   transition: all 0.4s ease;
 }
-a:hover,a:focus {
+
+a:hover, a:focus {
   color: #0019ff;
   text-decoration: underline;
 }
@@ -69,8 +75,9 @@ header {
 }
 
 
-main{
+main {
   padding-top: 3em;
+
 }
 
 
@@ -166,3 +173,4 @@ Timeline section
     width: 400px;
     text-justify: newspaper;
   }
+
