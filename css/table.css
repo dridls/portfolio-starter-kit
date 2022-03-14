@@ -2,18 +2,27 @@
     width: 100%;
     border: 1px solid black;
     text-align: left;
+    border-collapse: collapse;
 }
 
-.table th {
+.table .table-head {
 
     background-color: #55618B;
     color: white;
     font-weight: bold;
-    border-collapse: collapse;
+
 }
 
-tr {
-    background-color: #55618B;
+.table .table-body {
+    background-color: #6ba4ac;
+    background-color: linear-gradient(left, #6ba4ac, 1) 0%, #7780a2 35%, #7c699b 100%);
+
+    .btn-gradient {
+        background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
+        border: 0;
+        color: rgba(var(--text-color));
+    }
+
     border: 1px solid black;
     color: white;
 }
