@@ -4,7 +4,7 @@
     grid-template-columns: 2fr 1.5fr 1.5fr;
     grid-template-rows: repeat(7 1fr);
     border: 3px solid #72EDCA;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
 }
 
 .formContainer h2 {
@@ -13,6 +13,8 @@
     grid-row-end: 1;
     grid-column-start:2;
     grid-column-end: 4;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
     
 }
 
@@ -24,7 +26,7 @@
     max-width: 100%;
     height: 100%;
     vertical-align: auto;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .nameBox {
@@ -38,7 +40,17 @@
 
 .formContainer input:not(#generalCondition) {
     width: 80%;
+    margin-bottom: 0.5rem;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+
 }
+
+.formContainer label:not(#generalCondition) {
+margin-bottom: 0.5rem;
+}
+
 
 .formContainer input:not(#generalCondition):hover,
 .formContainer input:not(#generalCondition):active {
@@ -83,7 +95,7 @@
 }
 
 .messageBox input {
-    height: 100px;
+    height: 100px!important;
     width: 90%!important;
 }
 
