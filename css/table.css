@@ -1,0 +1,29 @@
+.table {
+    width: 100%;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.table th {
+
+    background-color: #55618B;
+    color: white;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: #55618B;
+    border: 1px solid black;
+    color: white;
+}
+
+td {
+    background-color: #55618B;
+    border: 1px solid blue;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
