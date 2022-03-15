@@ -6,7 +6,7 @@
 
 .table .table-head {
 
-    background-color: #55618B;
+    
     color: white;
     font-weight: bold;
     padding: 1px 0.5px;
@@ -29,8 +29,9 @@ th, td {
 }
 
 .sticky {
+    background-color: #55618B;
     position: sticky;
-    top: 0;
+    top: 100px;
 }
 
 tr:hover {
