@@ -28,6 +28,7 @@
                     <li><a href="#" class="active">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li onclick="turnOnOrOffDarkMode()"><a href="#">Dark Mode</a></li>
                 </ul>
             </nav>
         </div>
@@ -413,6 +414,12 @@
     <footer>
 
     </footer>
+    <script>
+    
+        function turnOnOrOffDarkMode() {
+         document.body.classList.toggle("darkmode")
+        } 
+          </script>
 
 </body>
 
