@@ -1,5 +1,12 @@
 /* to keep */
 
+.darkmode {
+  background-color: #000000;
+}
+
+.darkmode header {
+  background-color: #000000;
+}
 .darkmode .formContainer {
   background-color: #8891b4;
 }
