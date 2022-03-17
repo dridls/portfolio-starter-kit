@@ -1,0 +1,50 @@
+/* to keep */
+
+.darkmode .formContainer {
+  background-color: #8891b4;
+}
+
+.darkmode .formContainer button {
+  background-color: #af9adf;
+}
+
+.darkmode header .logo a {
+  color: #72edca;
+}
+
+.darkmode tr:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.darkmode resume {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #0000;
+}
+
+.darkmode .timeline-year p {
+  color: #fff;
+}
+
+.darkmode .container-left {
+  display: block;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0 4rem;
+  color: #ffffff;
+}
+
+.darkmode .container-right {
+  display: block;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0 4rem;
+  color: #ffffff;
+}
+.darkmode nav li {
+  color: #ffffff;
+}
